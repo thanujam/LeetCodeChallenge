@@ -17,3 +17,5 @@ The characters in J are distinct.
 
 #Learning
 1. Used hashing to store jewels.(unordered_set) It also decresed the time complexity
+2. unordered_set <int> also worked because it was internally using ascii value of a char.
+3. unordered_set <int> and unordered_set <char> worked fine
