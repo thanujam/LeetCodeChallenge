@@ -1,0 +1,21 @@
+Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+
+Examples:
+
+s = "leetcode"
+return 0.
+
+s = "loveleetcode",
+return 2.
+
+#Learning
+first tried naive solution that is using map and 2 travesal. To optimize this learnt 2 other tehniques.
+1. Using pair[256] that stores the freq and index and run throgh the array of pair and find the min index having 1 as freq.
+2. Improvization of the above one: map and single traveral (same as above). 
+Here map as int a[256] which stores the index of a character which repeats only once and run though the map, find the min index.
+
+1. DSA Used: Map or pair
+2. Complexity: Easy
+3. Time taken: 25 minS (including learning other 2 techniques)
+4. Time Comlexity: O(n)
+5. Space Complexity: constant
