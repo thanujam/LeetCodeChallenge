@@ -1,0 +1,19 @@
+You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane
+
+Check if the given point are lying in the straight line 
+
+
+#Learning
+Used collinearity fomula that is
+if( numPoints < 2)
+  return true;
+else
+ below condition should met
+  (y3 - y2)(x2 -x1) = (x3 - x2)(y2 - y1)
+  
+  
+1. DSA Used: Colinearity formula
+2. Complexity: hard (since dint awre of formula)
+3. Time taken: 55 minS 
+4. Time Comlexity: O(1)
+5. Space Complexity: constant
