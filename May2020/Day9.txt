@@ -1,0 +1,11 @@
+Find if the given num is a perfect squar or not
+
+ios_base::sync_with_stdio(false); cin.tie(NULL);use this before ur input it worked
+
+ios_base::sync_with_stdio(false); cin.tie(NULL);use this before ur input it worked
+
+1. DSA Used: -
+2. Complexity: Medium
+3. Time taken: 45min
+4. Time Comlexity: O(n)
+5. Space Complexity: constant
