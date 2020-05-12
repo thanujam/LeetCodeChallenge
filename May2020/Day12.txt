@@ -1,0 +1,7 @@
+Find a single element in a sorted array where every elemnt in the array is repeating twice except one.
+
+1. DSA Used: XOR operation or it magic
+2. Complexity: Easy
+3. Time taken: 2 minS
+4. Time Comlexity: O(n)
+5. Space Complexity: constant
