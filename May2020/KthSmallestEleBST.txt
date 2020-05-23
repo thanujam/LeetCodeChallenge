@@ -1,0 +1,24 @@
+Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+
+ 
+
+Example 1:
+
+Input: root = [3,1,4,null,2], k = 1
+   3
+  / \
+ 1   4
+  \
+   2
+Output: 1
+
+
+#Learning
+1. Using recursion (inorder traversal)
+2. Chnage the BST node's structure use of lcount (count of left subtree children)
+
+1. DSA Used: recusion n In-Order traversal
+2. Complexity: Meduim
+3. Time taken: 40 minS (including learning other 1 techniques)
+4. Time Comlexity: O(n)
+5. Space Complexity: )(h)
